@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "One plus 9",
+      "price": 620,
+      "img": "https://github.com/Gasprinskiy/testJson/blob/main/img/img_01.jpg?raw=true"
+    },
+    {
+      "id": 2,
+      "title": "Google Pixel 6",
+      "price": 650,
+      "img": "https://github.com/Gasprinskiy/testJson/blob/main/img/img_02.jpg?raw=true"
+    },
+    {
+      "id": 3,
+      "title": "iPhone 13 Mini",
+      "price": 720,
+      "img": "https://github.com/Gasprinskiy/testJson/blob/main/img/img_03.jpg?raw=true"
+    },
+    {
+      "id": 4,
+      "title": "Xiaomi Mi 11 Ultra",
+      "price": 430,
+      "img": "https://github.com/Gasprinskiy/testJson/blob/main/img/img_04.jpg?raw=true"
+    },
+    {
+      "id": 5,
+      "title": "Google Pixel 5a",
+      "price": 550,
+      "img": "https://github.com/Gasprinskiy/testJson/blob/main/img/img_05.jpg?raw=true"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
