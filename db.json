@@ -2,36 +2,652 @@
   "products": [
     {
       "id": 1,
-      "title": "One plus 9",
+      "title": "One Plus 9",
+      "brand": "One Plus",
       "price": 620,
-      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01.jpg?raw=true"
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [
+        "GoDot"
+      ],
+      "about": {
+        "screen": "6,55', FHD+, AMOLED, 120 Гц, 1100 нит, HDR10+, Gorilla Glass 5",
+        "size": "163×74×8,7",
+        "weight": "197 g",
+        "CPU": "Qualcomm Snapdragon 888",
+        "camera": "48 + 50 + 2 Mp (main); 16 MP (front)",
+        "memory": "8/12 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4500 mAh, wired fast charging 65W, wireless 15W",
+        "OS": "Android"
+      }
     },
     {
       "id": 2,
       "title": "Google Pixel 6",
+      "brand": "Google",
       "price": 650,
-      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02.jpg?raw=true"
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
     },
     {
       "id": 3,
       "title": "iPhone 13 Mini",
+      "brand": "Apple",
       "price": 720,
-      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03.jpg?raw=true"
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "5,4', Super Retina XDR, 2340×1080, 476, Ceramic Shield",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "6-core Apple A15 Bionic",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "IOS"
+      }
     },
     {
       "id": 4,
       "title": "Xiaomi Mi 11 Ultra",
-      "price": 430,
-      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_04.jpg?raw=true"
+      "brand": "Xiaomi",
+      "price": 500,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_04.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_04-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_04-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_04-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
     },
     {
       "id": 5,
       "title": "Google Pixel 5a",
+      "brand": "Google",
       "price": 550,
-      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_05.jpg?raw=true"
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_05.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_05-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_05-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_05-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Realme GT",
+      "brand": "Realme",
+      "price": 400,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_6%20(1).jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_06-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_06-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_06-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Poco F3",
+      "brand": "Poco",
+      "price": 350,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_7.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_07-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_07-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_07-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Samsung Galaxy A72",
+      "brand": "Samsung",
+      "price": 280,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_8.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_08-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_08-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_08-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Sony Xperia 10 III",
+      "brand": "Sony",
+      "price": 300,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_9.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_09-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_09-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_09-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Meizu 18 Pro",
+      "brand": "Meizu",
+      "price": 550,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_10.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_10-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_10-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_10-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Vivo X60 Pro",
+      "brand": "Vivo",
+      "price": 450,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_11.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_11-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_11-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_11-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Huawei P50 Pro",
+      "brand": "Huawei",
+      "price": 950,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_12.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_12-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_12-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_12-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "HarmonyOS"
+      }
+    },
+    {
+      "id": 13,
+      "title": "iPhone 13 Pro Max",
+      "brand": "Apple",
+      "price": 1000,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_13.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_13-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_13-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_13-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "IOS"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Realme 8",
+      "brand": "Realme",
+      "price": 220,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_14.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_14-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_14-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_14-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [
+        "42Ucn"
+      ],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Honor Magic 3",
+      "brand": "Honor",
+      "price": 600,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_15.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_15-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_15-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_15-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "HarmonyOS"
+      }
+    },
+    {
+      "id": 16,
+      "title": "One Plus 7 Pro",
+      "brand": "One Plus",
+      "price": 500,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_16.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_16-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_16-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_16-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Asus Zenfone 8",
+      "brand": "Asus",
+      "price": 490,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_17.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_17-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_17-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_17-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": "42Ucn",
+      "userName": "",
+      "userPassword": "",
+      "userStatus": "guest",
+      "cart": [
+        {
+          "id": 14,
+          "title": "Realme 8",
+          "price": 220,
+          "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_14.jpg?raw=true",
+          "isChosen": false
+        }
+      ],
+      "favorites": []
+    }
+  ],
+  "cart": [],
+  "orders": [],
+  "filter": [
+    {
+      "id": 1,
+      "title": "One Plus 9",
+      "brand": "One Plus",
+      "price": 620,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_01-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [
+        "GoDot",
+        "42Ucn"
+      ],
+      "about": {
+        "screen": "6,55', FHD+, AMOLED, 120 Гц, 1100 нит, HDR10+, Gorilla Glass 5",
+        "size": "163×74×8,7",
+        "weight": "197 g",
+        "CPU": "Qualcomm Snapdragon 888",
+        "camera": "48 + 50 + 2 Mp (main); 16 MP (front)",
+        "memory": "8/12 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4500 mAh, wired fast charging 65W, wireless 15W",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Google Pixel 6",
+      "brand": "Google",
+      "price": 650,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_02-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "6,4', OLED, FullHD+, 90Ghz, Gorilla Glass",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "8-core Google Tensor, Mali-G78",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "Android"
+      }
+    },
+    {
+      "id": 3,
+      "title": "iPhone 13 Mini",
+      "brand": "Apple",
+      "price": 720,
+      "quantity": 1,
+      "img": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03.jpg?raw=true",
+      "imgBig": [
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03-big.jpg?raw=true"
+        },
+        {
+          "slide": "https://github.com/Gasprinskiy/learnJson/blob/main/img/img_03-big.jpg?raw=true"
+        }
+      ],
+      "status": "published",
+      "usersCartStatus": [],
+      "about": {
+        "screen": "5,4', Super Retina XDR, 2340×1080, 476, Ceramic Shield",
+        "size": "158,6×74,8×8,9",
+        "weight": "207 g",
+        "CPU": "6-core Apple A15 Bionic",
+        "camera": "50 MP, ƒ / 1.85 (wide) + 12 MP, ƒ / 2.2 (ultra wide); 8 MP, ƒ / 2.0 (front)",
+        "memory": "8 GB RAM (LPDDR5), 128/256 GB ROM (UFS 3.1)",
+        "battery": "4614 mAh, 30 W wired, 21 W wireless charging",
+        "OS": "IOS"
+      }
+    }
+  ]
 }
